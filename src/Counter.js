@@ -11,11 +11,7 @@ function Counter(props) {
         )
     }
     function reset(){
-        setCount(
-          function(oldCount){
-            return oldCount + delta
-          }
-        )
+        setCount(0)
     }
     return (
       <div className="App">

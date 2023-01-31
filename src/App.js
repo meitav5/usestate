@@ -4,7 +4,7 @@ import { useState } from "react";
 
 
 function App() {
-  const {maxCounter, setMaxCounter} = useState(10);
+  const [maxCounter, setMaxCounter] = useState(10);
   const [delta, setDelta] = useState(1);
   function handleDelta(e){
     setDelta(Number(e.target.value))
